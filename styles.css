@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+  background: #FFF8F7;
+  padding: 11px;
+}
+.icons{
+  color: #BCB4B4;
+  font-size: 18px;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.icons .bi-arrow-clockwise{
+  color: #6A4E52;
+}
+.input{
+  border: 0;
+  border-radius: 50px;
+  position: fixed;
+  top: .5%;
+  right: 15%;
+  padding: 9px;
+  text-indent: 25px;
+  font-size: 15px;
+  background-color: #F2E6EB;
+  border-color: #6A4E52;
+}
+.bi-google{
+  font-size: 18px;
+  position: fixed;
+  top: 1.7%;
+  right: 88%;
+  color: #6A4E52;
+}
+.bi-star{
+  position: fixed;
+  top: 1.7%;
+  right: 16%;
+  color: #6A4E52;
+}
+.icons-right{
+  position: fixed;
+  top: 1.7%;
+  right: 3%;
+  color: #6A4E52;
+  gap: 30%;
+}
+.bi-puzzle{
+  position: fixed;
+  top: 1.7%;
+  right: 12%;
+  color: #6A4E52;
+  font-size: 18px;
+}
+.bi-music-note-list{
+  position: fixed;
+  top: 1.7%;
+  right: 8%;
+  color: #6A4E52;
+  font-size: 18px;
+}
+.bi-person-circle{
+  position: fixed;
+  top: 1.7%;
+  right: 4%;
+  color: #6A4E52;
+  font-size: 18px;
+}
+.bi-three-dots-vertical{
+  position: fixed;
+  top: 1.7%;
+  right: 1%;
+  color: #6A4E52;
+  font-size: 18px;
+}
+.container{
+  background: linear-gradient(#C5C5C5, white, white, white);
+}
+.container .informacion{
+  font-size: 15px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 25px;
+  padding: 15px;
+  cursor: pointer;
+}
+.google{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 100px;
+  color: #EEEEEE;
+}
+.container2{
+  display: flex;
+  justify-content: center;
+  align-items: 15vh;
+  margin-left: 100px;
+}
+.centered-input{
+  margin-top: 30px;
+  margin-right: 90px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  text-align: left;
+  text-indent: 5px;
+  font-size: 16px;
+  padding: 0 40px;
+  box-sizing: border-box;
+  box-shadow:0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.bi-search-heart{
+  font-size: 18px;
+  position: fixed;
+  top: 51.6%;
+  right: 72.6%;
+  color: #6A4E52;
+  cursor: pointer;
+}
+.iconoscuatro{
+  font-size: 18px;
+  position: fixed;
+  top: 51.6%;
+  right: 25.7%;
+  color: #6A4E52;
+  cursor: pointer;
+}
+.editar{
+  font-size: 25px;
+  position: fixed;
+  top: 93%;
+  right: 2%;
+  color: #6A4E52;
+  cursor: pointer;
+}
